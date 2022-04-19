@@ -30,7 +30,7 @@ public class NO2Upgraded {
     if (bil ==2 || bil == 3 )
         return true;
     else if (bil%6 == 1 || bil%6 ==5){
-         for (int i = 2 ; i <= (bil/6) + 6 ; i++){
+         for (int i = 2 ; i <= (bil/6) + 3 ; i++){
          if (bil%i == 0)
            return false;}
         return true;}
